@@ -6,12 +6,15 @@
   Img {
     @apply rounded-lg
   }
-   Selfie{
+
+  Selfie {
     @apply rounded-lg
   }
+
   li {
     @apply px-4
   }
+
   button {
     @apply rounded-lg
   }
