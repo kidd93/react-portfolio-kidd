@@ -2,6 +2,7 @@ import React from 'react'
 import styleBuddy from '../assets/styleBuddy2.png'
 import booksearch from '../assets/booksearch.png'
 import Doggypedia from '../assets/Doggypedia.png'
+import Jate from '../assets/Jate.png'
 
 const Projects = () => {
   return (
@@ -9,7 +10,7 @@ const Projects = () => {
       <div className='flex flex-col justify-center place-items-center w-full h-full'>
         <div className='flex flex-col justify-center place-items-center max-w-[800px] bg-slate-700 rounded-lg'>
           <p className='text-3xl py-8'>Projects</p>
-          <h1 className=' md:text-lg pb-5 px-5'>Please click below to view/demo my bootcamp projects. All applications are deployed through Heroku and I will share a link to my Github for code viewing purposes. Thank you!</h1>
+          <h1 className=' md:text-lg pb-5 px-5'>Please click below to view/demo my bootcamp projects. All applications are deployed through Heroku. A few are collaborations that I helped contribute towards and enjoyed working on. Thank you!</h1>
 
           <div className='flex flex-col justify-center'>
             <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-4 pb-5'>
@@ -32,8 +33,8 @@ const Projects = () => {
           <div className='flex flex-col justify-center'>
             <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-4 pb-10'>
               <div>
-                <a href='https://style-buddy22.herokuapp.com/'>
-                  <img src={styleBuddy} alt='' style={{ width: '350px', height: '250px'}} className='shadow-xl shadow-black hover:shadow-zinc-400'>
+                <a href='https://calm-castle-89895.herokuapp.com/'>
+                  <img src={Jate} alt='' style={{ width: '350px', height: '250px'}} className='shadow-xl shadow-black hover:shadow-zinc-400'>
                   </img>
                 </a>
               </div>
