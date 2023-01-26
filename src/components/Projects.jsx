@@ -13,16 +13,16 @@ const Projects = () => {
 
           <div className='flex flex-col justify-center'>
             <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-4 pb-5'>
-              <div>
+              <div className=''>
                 <a href='https://style-buddy22.herokuapp.com/'>
-                  <img src={styleBuddy} alt='' style={{ width: '350px', height: '250px' }} className='shadow-xl shadow-black'>
+                  <img src={styleBuddy} alt='' style={{ width: '350px', height: '250px' }} className='shadow-xl shadow-black hover:shadow-zinc-400'>
                   </img>
                 </a>
               </div>
 
               <div className='grid grid-cols2 gap-4 justify-center'>
                 <a href='https://vast-mountain-00582.herokuapp.com/'>
-                  <img src={booksearch} alt='' style={{ width: '350px', height: '250px' }} className='shadow-xl shadow-black'>
+                  <img src={booksearch} alt='' style={{ width: '350px', height: '250px' }} className='shadow-xl shadow-black hover:shadow-zinc-400'>
                   </img>
                 </a>
               </div>
@@ -33,14 +33,14 @@ const Projects = () => {
             <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-4 pb-10'>
               <div>
                 <a href='https://style-buddy22.herokuapp.com/'>
-                  <img src={styleBuddy} alt='' style={{ width: '350px', height: '250px' }} className='shadow-xl shadow-black'>
+                  <img src={styleBuddy} alt='' style={{ width: '350px', height: '250px'}} className='shadow-xl shadow-black hover:shadow-zinc-400'>
                   </img>
                 </a>
               </div>
 
               <div className='grid grid-cols2 gap-4 justify-center'>
                 <a href='https://alexcourtney18.github.io/cocktail-doggo/'>
-                  <img src={Doggypedia} alt='' style={{ width: '350px', height: '250px' }} className='shadow-xl shadow-black'>
+                  <img src={Doggypedia} alt='' style={{ width: '350px', height: '250px' }} className='shadow-xl shadow-black hover:shadow-zinc-400'>
                   </img>
                 </a>
               </div>
