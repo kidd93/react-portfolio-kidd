@@ -2,16 +2,17 @@ import React, { useState } from 'react'
 import Logo from '../assets/logo.png'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import {Link} from 'react-scroll'
+import SimpleImageSlider from './About'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
   const click = () => setNav(!nav)
 
   return (
-    <div className='fixed h-[80px] w-full flex justify-between px-3 place-items-center text-zinc-500 text-2xl font-bold'>
-      <div>
-        <img src={Logo} alt='' style={{ width: '120px' }} className='shadow-lg shadow-black z-10' />
-      </div>
+    <div className='fixed h-[60px] w-full flex justify-between px-3 place-items-center alignItems:flex-end text-zinc-100 text-2xl font-bold' style={{display: 'flex', justifyContent: 'right'}}>
+      {/* <div>
+        <img src={Logo} alt='' style={{ width: '120px' }} className='shadow-lg shadow-black' />
+      </div> */}
 
       <ul className='hidden md:flex'>
         <li className='hover:text-sky-900'>
@@ -29,7 +30,7 @@ const Navbar = () => {
         
       </ul>
 
-      <div onClick={click} className='md:hidden text-zinc-500 z-30'>
+      <div onClick={click} className='md:hidden text-zinc-100 z-20'>
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
