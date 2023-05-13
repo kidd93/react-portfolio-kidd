@@ -35,10 +35,10 @@ const Projects = () => {
           <div className='flex flex-col justify-center m-10'>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
               <div>
-                <a href='https://calm-castle-89895.herokuapp.com/'>
-                  <img src={Jate} alt='' style={{ width: '350px', height: '250px'}} className='shadow-xl shadow-black hover:shadow-zinc-400'>
+                
+                  <img src={soon} alt='' style={{ width: '350px', height: '250px'}} className='shadow-xl shadow-black hover:shadow-zinc-400'>
                   </img>
-               </a>
+               
               </div>
 
               <div>
