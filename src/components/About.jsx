@@ -27,7 +27,7 @@ const About = () => {
   ];
 
   return (
-    <div name='about' className='w-full flex flex-col justify-center items-center lg:h-screen text-zinc-300' style={{ backgroundImage: `url(${bg})`, backgroundRepeat: `no-repeat`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}>
+    <div name='about' className='w-full relative flex flex-col justify-center items-center lg:h-screen text-zinc-300' style={{ backgroundImage: `url(${bg})`, backgroundRepeat: `no-repeat`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundAttachment: 'fixed' }}>
       
         <div className='flex flex-col justify-center place-items-center max-w-[800px] lg:rounded-xl shadow-black shadow-xl bg-gradient-to-tr from-[#181818] to-[#707070]'>
           <p className='text-3xl text-cyan-500 font-bold px-5 py-5 pb-4'>About</p>
@@ -36,7 +36,7 @@ const About = () => {
           </h1>
           <div className='w-full mx-auto py-8 px-4'>
             <div className='flex justify-center w-full h-full pb-6'>
-              <div className='shadow-lg shadow-black relative'>
+              <div className='slider shadow-lg shadow-black relative'>
                 <SimpleImageSlider
                   width={305}
                   height={365}
